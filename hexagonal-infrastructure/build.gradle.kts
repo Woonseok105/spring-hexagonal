@@ -10,7 +10,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    runtimeOnly("mysql:mysql-connector-java:8.0.32")
+    runtimeOnly("mysql:mysql-connector-java")
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.springframework.boot:spring-boot-starter-validation")
@@ -19,6 +19,8 @@ dependencies {
 
     implementation("io.jsonwebtoken:jjwt:0.9.1")
     implementation("org.springframework.boot:spring-boot-starter-security")
+
+    annotationProcessor ("org.springframework.boot:spring-boot-configuration-processor")
 
     implementation("org.springframework.boot:spring-boot-starter-data-redis")
 
