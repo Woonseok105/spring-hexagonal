@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49f75ab0-01df-47a2-8edc-dee07a4a3e05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/annotation/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/error/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/test/kotlin/com/example/springhexagonal/SpringHexagonalApplicationTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/SpringHexagonalApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +48,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Annotation" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -101,7 +95,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;f614878fe693288dcace208bede4dfad&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -117,6 +111,9 @@
       <recent name="$PROJECT_DIR$/hexagonal-infrastructure/src/main" />
       <recent name="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal" />
       <recent name="$PROJECT_DIR$/hexagonal-application" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.springhexagonal.global.annotation.config" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringHexagonalApplication">
@@ -226,10 +223,9 @@
         <env name="DB_PASSWORD" value="qwer1234" />
         <env name="DB_URL" value="jdbc:mysql://localhost:3306" />
         <env name="DB_USERNAME" value="root" />
-        <env name="REDIS_HOST" value="localhost" />
-        <env name="REDIS_PORT" value="6379" />
-        <env name="REFRESH_EXP" value="1360000" />
         <env name="SECRET_KEY" value="qwer1234" />
+        <env name="REFRESH_EXP" value="136000REDIS_HOST=localhost" />
+        <env name="REDIS_PORT" value="6379" />
       </envs>
       <module name="spring-hexagonal.hexagonal-infrastructure.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springhexagonal.SpringHexagonalApplication" />
@@ -280,11 +276,17 @@
       <workItem from="1681859320656" duration="3639000" />
       <workItem from="1681865636363" duration="1169000" />
       <workItem from="1681866816884" duration="1776000" />
-      <workItem from="1681887554384" duration="300000" />
+      <workItem from="1681887554384" duration="5459000" />
+      <workItem from="1681903791423" duration="23432000" />
+      <workItem from="1681986465625" duration="5860000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
