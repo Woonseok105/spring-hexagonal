@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49f75ab0-01df-47a2-8edc-dee07a4a3e05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/entity/UserEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/entity/BaseIdEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/dto/SpiTokenResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/dto/SpiTokenResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/error/CustomException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/error/CustomException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/SpringHexagonalApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/SpringHexagonalApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/mapper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/presentation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/ErrorCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/ErrorCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/GlobalExceptionHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/GlobalExceptionHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/ExpiredToken.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/ExpiredToken.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InternalServerErrorException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InternalServerErrorException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InvalidToken.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InvalidToken.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/UserNotFoundException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/exception/UserNotFoundException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/GlobalExceptionFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/GlobalExceptionFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/auth/AuthDetailsService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/auth/AuthDetailsService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/jwt/JwtProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/jwt/JwtProvider.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +67,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Annotation" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -105,6 +120,9 @@
     ]
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/hexagonal-infrastructure" />
@@ -113,6 +131,7 @@
       <recent name="$PROJECT_DIR$/hexagonal-application" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.springhexagonal.domain.user.exception" />
       <recent name="com.example.springhexagonal.global.filter" />
       <recent name="com.example.springhexagonal.global.annotation.config" />
     </key>
@@ -222,11 +241,11 @@
       <envs>
         <env name="ACCESS_EXP" value="13600" />
         <env name="DB_PASSWORD" value="qwer1234" />
-        <env name="DB_URL" value="jdbc:mysql://localhost:3306" />
+        <env name="DB_URL" value="jdbc:mysql://localhost:3306/Spring_Study" />
         <env name="DB_USERNAME" value="root" />
-        <env name="SECRET_KEY" value="qwer1234" />
-        <env name="REFRESH_EXP" value="136000REDIS_HOST=localhost" />
         <env name="REDIS_PORT" value="6379" />
+        <env name="REFRESH_EXP" value="136000" />
+        <env name="SECRET_KEY" value="qwer1234" />
       </envs>
       <module name="spring-hexagonal.hexagonal-infrastructure.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springhexagonal.SpringHexagonalApplication" />
@@ -279,7 +298,13 @@
       <workItem from="1681866816884" duration="1776000" />
       <workItem from="1681887554384" duration="5459000" />
       <workItem from="1681903791423" duration="23432000" />
-      <workItem from="1681986465625" duration="6180000" />
+      <workItem from="1681986465625" duration="6362000" />
+      <workItem from="1682038098301" duration="20238000" />
+      <workItem from="1682684358374" duration="7118000" />
+      <workItem from="1682691891928" duration="89000" />
+      <workItem from="1682743494046" duration="3836000" />
+      <workItem from="1682836584908" duration="3372000" />
+      <workItem from="1682840036290" duration="5581000" />
     </task>
     <servers />
   </component>

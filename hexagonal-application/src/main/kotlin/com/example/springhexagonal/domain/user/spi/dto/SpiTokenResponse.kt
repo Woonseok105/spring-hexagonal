@@ -7,5 +7,5 @@ data class SpiTokenResponse (
 
         val refreshToken: String,
 
-        val accessTokenExp: LocalDateTime
+        val refreshTokenExp: Long
 )

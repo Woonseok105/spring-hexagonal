@@ -1,5 +1,7 @@
 package com.example.springhexagonal.global.error
 
+import com.example.springhexagonal.error.CustomException
+import com.example.springhexagonal.global.error.response.BaseErrorResponse
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.validation.BindException
@@ -35,15 +37,14 @@ class GlobalExceptionHandler {
         return ResponseEntity(errorMap, HttpStatus.BAD_REQUEST)
     }
 
-//    @ExceptionHandler(CustomException::class)
-//    fun handleCustomException(e: CustomException): ResponseEntity<ErrorResponse> {
-//
-//
-//        return ResponseEntity(
-//                ErrorResponse(status = ),
-//                HttpStatus.valueOf(e.status)
-//        )
-//    }
+    @ExceptionHandler(CustomException::class)
+    fun handleCustomException(e: CustomException): ResponseEntity<BaseErrorResponse> {
+
+        return ResponseEntity(
+                BaseErrorResponse.of(e),
+                HttpStatus.valueOf(e.status)
+        )
+    }
 
 
 }

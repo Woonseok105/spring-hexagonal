@@ -15,7 +15,11 @@ class GlobalExceptionFilter (
         private val objectMapper: ObjectMapper
 ) : OncePerRequestFilter() {
 
-    override fun doFilterInternal(request: HttpServletRequest, response: HttpServletResponse, filterChain: FilterChain) {
+    override fun doFilterInternal(
+            request: HttpServletRequest,
+            response: HttpServletResponse,
+            filterChain: FilterChain
+    ) {
         try {
             filterChain.doFilter(request, response)
         } catch (e: Exception) {

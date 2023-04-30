@@ -5,6 +5,4 @@ import com.example.springhexagonal.global.error.ErrorCode
 
 object ExpiredToken : CustomException (
         ErrorCode.EXPIRED_TOKEN
-) {
-    val Exception = ExpiredToken
-}
+)

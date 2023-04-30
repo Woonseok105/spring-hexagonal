@@ -5,6 +5,4 @@ import com.example.springhexagonal.global.error.ErrorCode
 
 object InvalidToken : CustomException (
         ErrorCode.INVALID_TOKEN
-) {
-    val Exception = InvalidToken
-}
+)
