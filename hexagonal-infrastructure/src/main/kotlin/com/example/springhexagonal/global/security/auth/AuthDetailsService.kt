@@ -13,6 +13,6 @@ class AuthDetailsService (
 
     override fun loadUserByUsername(accountId: String): UserDetails {
         val user = userRepository.findByAccountId(accountId)
-        return AuthDetails(user!!) //TODO !! 로 널 값이 아니라고 명시해주는게 맞나?
+        return AuthDetails(user!!) 
     }
 }
