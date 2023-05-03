@@ -12,7 +12,7 @@ import com.example.springhexagonal.domain.user.spi.UserJwtPort
 import com.example.springhexagonal.domain.user.spi.UserSecurityPort
 
 @UseCase
-open class SignInUseCase ( //TODO 왜 OPEN을 달아주면 에러가 안날까????
+open class SignInUseCase ( 
         private val queryUserPort: QueryUserPort,
         private val userSecurityPort: UserSecurityPort,
         private val userJwtPort: UserJwtPort,
