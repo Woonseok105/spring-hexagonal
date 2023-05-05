@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49f75ab0-01df-47a2-8edc-dee07a4a3e05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/dto/SpiTokenResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/dto/SpiTokenResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/error/CustomException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/error/CustomException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/SpringHexagonalApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/SpringHexagonalApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/mapper/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/presentation/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/ErrorCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/ErrorCode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/GlobalExceptionHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/error/GlobalExceptionHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/ExpiredToken.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/ExpiredToken.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InternalServerErrorException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InternalServerErrorException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InvalidToken.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/InvalidToken.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/exception/UserNotFoundException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/exception/UserNotFoundException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/GlobalExceptionFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/GlobalExceptionFilter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/auth/AuthDetailsService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/auth/AuthDetailsService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/jwt/JwtProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/jwt/JwtProvider.kt" afterDir="false" />
-    </list>
+    <list default="true" id="49f75ab0-01df-47a2-8edc-dee07a4a3e05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +36,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-hexagonal" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-hexagonal" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
