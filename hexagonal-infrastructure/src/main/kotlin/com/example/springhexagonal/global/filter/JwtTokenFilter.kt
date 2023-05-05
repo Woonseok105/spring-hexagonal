@@ -18,6 +18,7 @@ class JwtTokenFilter(
         token?.let {
             SecurityContextHolder.getContext().authentication = jwtParser.getAuthentication(token)
         }
+        filterChain.doFilter(request, response)
     }
 
     private fun resolvedToken(request: HttpServletRequest): String? {
