@@ -16,4 +16,8 @@ class UserPersistenceAdapter (
                 userRepository.findByAccountId(accountId) ?: throw UserNotFoundException
         )
     }
+
+    override fun saveUser(user: User) {
+        userRepository.save(userMapper.domainToEntity(user))
+    }
 }

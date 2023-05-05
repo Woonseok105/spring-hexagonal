@@ -5,7 +5,7 @@ import com.example.springhexagonal.annotation.Aggregate
 @Aggregate
 class User (
 
-        val id: Long,
+        val id: Long = 0,
 
         val accountId: String,
 

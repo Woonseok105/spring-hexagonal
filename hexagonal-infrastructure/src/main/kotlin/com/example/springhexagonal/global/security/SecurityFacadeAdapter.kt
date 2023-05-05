@@ -11,4 +11,7 @@ class SecurityFacadeAdapter (
 
     override fun matches(rawPassword: String, encodedPassword: String): Boolean =
             passwordEncoder.matches(rawPassword, encodedPassword)
+
+    override fun encodePassword(password: String): String =
+            passwordEncoder.encode(password)
 }

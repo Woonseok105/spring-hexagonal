@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49f75ab0-01df-47a2-8edc-dee07a4a3e05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/api/dto/response/SignInResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/api/dto/response/SignInResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/domain/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/UserPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/UserPort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/UserSecurityPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-application/src/main/kotlin/com/example/springhexagonal/domain/user/spi/UserSecurityPort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserPersistenceAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/persistence/UserPersistenceAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/presentation/UserWebAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/domain/user/presentation/UserWebAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/JwtTokenFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/filter/JwtTokenFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/SecurityFacadeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hexagonal-infrastructure/src/main/kotlin/com/example/springhexagonal/global/security/SecurityFacadeAdapter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +125,7 @@
       <recent name="$PROJECT_DIR$/hexagonal-application" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.springhexagonal.domain.user.api" />
       <recent name="com.example.springhexagonal.domain.user.exception" />
       <recent name="com.example.springhexagonal.global.filter" />
       <recent name="com.example.springhexagonal.global.annotation.config" />

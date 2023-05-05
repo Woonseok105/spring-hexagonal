@@ -4,4 +4,5 @@ interface UserSecurityPort {
 
     fun matches(rawPassword: String, encodedPassword: String): Boolean
 
+    fun encodePassword(password: String): String
 }
